@@ -40,21 +40,15 @@ OUTPUT:
 
 ![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/40087e5d-58a3-4772-a2dc-bcd26d0a8abb)
 
-                                ADDERS
+ ADDERS
                                 
 Half Adder:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
-
-Full adder:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
-
-
 VERILOG CODE:
 
-                            \\HALFADDER\\
+                           
 ````````````````````````````````````````````````                 
 module halfadder(a,b,sum,carry);
 input a,b;
@@ -63,8 +57,16 @@ xor x1(sum,a,b);
 and x2(carry,a,b);
 endmodule
 ````````````````````````````````````````````````````````
+OUTPUT:
 
-                             \\FULLADDER\\
+![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/01d61845-0f3d-42e2-bfde-e5dd5ba31508)
+
+Full adder:
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
+
+VERILOG CODE:
+
 ``````````````````````````````````````````````````````          
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
@@ -79,28 +81,15 @@ endmodule
 ``````````````````````````````````````````````````````````````````````
 OUTPUT:
 
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/01d61845-0f3d-42e2-bfde-e5dd5ba31508)
-
-
-
 ![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/80b28061-8efc-4abf-bab5-eb4a343b5f68)
 
-                                                       SUBTRACTOR  
-
-                    
+          
 Half Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
+VERILOG CODE:
 
-
-Full Subtractor:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
-
-VERILOG CODE
-
-                                                     \\HALFSUBRACTOR\\
 ````````````````````````````````````````````````````````
 module halfsubractor(a,b,borrow,diff);
 input a,b;
@@ -109,7 +98,15 @@ xor g1(diff,a,b);
 and g2(borrow,~a,b);
 endmodule
 ````````````````````````````````````````````````````````````````````````````````
-                                                      \\FULLSUBRACTOR\\
+OUTPUT
+
+![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/3cef0172-475a-4996-9979-d5848592d007)
+
+Full Subtractor:
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
+
+                                                      
 `````````````````````````````````````````````````````````````````````````````````
 module fullsubractor(a,b,bin,d,bout);
 input a,b,bin;
@@ -124,12 +121,8 @@ endmodule
 ````````````````````````````````````````````````````````````````````````````````````
 OUTPUT
 
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/3cef0172-475a-4996-9979-d5848592d007)
-
-
 ![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/ac49b8b4-cff2-4ccc-8371-c1479605a4ed)
 
-                                                     Ripple Carry Adder
 
 4 Bit Ripple Carry Adder:
 
@@ -138,16 +131,9 @@ OUTPUT
 
 ![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/cbe090d8-8583-439e-9826-840d23ad7e94)
 
-8 Bit Ripple Carry Adder:
-
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/3a290bdb-677f-44f7-b04c-439b6a586d1b)
-
-
-
-
 VERILOG CODE
 
-                                                \\4 Bit Ripple Carry Adder\\
+                                              
 ```````````````````````````````````````````````````````````````````````
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
@@ -171,7 +157,16 @@ fulladder(a[2],b[2],c2,sum[2],c3);
 fulladder(a[3],b[3],c3,sum[3],c4);
 endmodule
 `````````````````````````````````````````````````````````````````````````````````
-                                          \\ 8 Bit Ripple Carry Adder\\
+OUTPUT
+
+![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/ecfec3da-6abf-467a-81e0-20b0bd73b4fb)
+
+8 Bit Ripple Carry Adder:
+
+![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/3a290bdb-677f-44f7-b04c-439b6a586d1b)
+ 
+ VERILOG CODE:  
+ 
 ````````````````````````````````````````````````````````````````````````````````
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
@@ -203,8 +198,6 @@ endmodule
 
  OUTPUT
      
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/ecfec3da-6abf-467a-81e0-20b0bd73b4fb)
-
 
 ![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/8995d656-73d9-498c-92f6-730fc49d4b9f)
 
