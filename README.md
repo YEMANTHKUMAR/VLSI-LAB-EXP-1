@@ -169,11 +169,9 @@ fulladder(a[1],b[1],c1,sum[1],c2);
 fulladder(a[2],b[2],c2,sum[2],c3);
 fulladder(a[3],b[3],c3,sum[3],c4);
 endmodule
-````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-
-
-                                            \\ 8 Bit Ripple Carry Adder\\
-``````````````````````````````````````````````````````````````````````````````````
+`````````````````````````````````````````````````````````````````````````````````
+                                          \\ 8 Bit Ripple Carry Adder\\
+````````````````````````````````````````````````````````````````````````````````
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -200,16 +198,4 @@ fulladder(a[6],b[6],c6,sum[6],c7);
 fulladder(a[7],b[7],c7,sum[7],c8);
 fulladder(a[8],b[8],c8,sum[8],cout);
 endmodule
-````````````````````````````````````````````````````````````````````````````````````
-
-OUTPUT
-
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/fb237875-3b93-4884-aa84-5d376e5c3054)
-
-
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/66710e5e-9f92-4df8-aa70-4d7096a5f654)
-
-                            
-RESULT
-
-Thus  The  Simulation  And Synthesis  Of The Logic Gates,Adders,Subtractor,Ripple Carry Adder using Xilinx ISE are Verified Successfully.
+``````````````````````````````````````````````````````````````````````````````````                 
