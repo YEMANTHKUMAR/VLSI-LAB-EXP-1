@@ -199,4 +199,16 @@ fulladder(a[6],b[6],c6,sum[6],c7);
 fulladder(a[7],b[7],c7,sum[7],c8);
 fulladder(a[8],b[8],c8,sum[8],cout);
 endmodule
-``````````````````````````````````````````````````````````````````````````````````                 
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+ OUTPUT
+     
+![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/ecfec3da-6abf-467a-81e0-20b0bd73b4fb)
+
+
+![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/8995d656-73d9-498c-92f6-730fc49d4b9f)
+
+
+RESULT
+
+Thus  The  Simulation  And Synthesis  Of The Logic Gates,Adders,Subtractor,Ripple Carry Adder using Xilinx ISE are Verified Successfully
