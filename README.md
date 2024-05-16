@@ -143,8 +143,6 @@ OUTPUT
 ![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/3a290bdb-677f-44f7-b04c-439b6a586d1b)
 
 
-![image](https://github.com/YEMANTHKUMAR/VLSI-LAB-EXP-1/assets/160569469/f5947d1d-b897-4cf3-8887-1109bdbe6a39)
-
 
 
 VERILOG CODE
